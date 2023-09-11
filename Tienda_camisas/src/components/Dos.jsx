@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
+
 function Dos() {
   return (
     <div>
-      <h1>Niños lindos</h1>
-      <button>
-        <Link to={"/"}>tu mama</Link>
-      </button>
+      <Navbar/>
+      <h1>About Us</h1>
     </div>
   );
 }

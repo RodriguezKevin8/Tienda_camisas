@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Hola from "./components/Hola.jsx";
 import Dos from "./components/Dos.jsx";
+import Tres from "./components/Tres.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     path: "/2",
     element: <Dos />,
   },
+  {
+    path: "/3",
+    element: <Tres />,
+  }
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

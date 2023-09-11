@@ -1,4 +1,5 @@
 import Card from "./Card";
+import Navbar from "./Navbar";
 
 function Hola() {
   const datos = [
@@ -31,7 +32,7 @@ function Hola() {
 
   return (
     <div>
-      <h1>Hola a todos</h1>
+      <Navbar/>
       <Card datos={datos} />
     </div>
   );

@@ -3,7 +3,7 @@ const Card = ({ datos }) => {
   for (let i = 0; i < datos.length; i += 5) {
     const bloque = datos.slice(i, i + 5);
     const tarjetasBloque = bloque.map((item, index) => (
-      <div key={index} className="col-md-2 mb-3">
+      <div key={index} className="col-md-2 mb-3 mx-3">
         <div className="card mx-3" style={{ width: "15rem" }}>
           <img
             src={item.imagen}
