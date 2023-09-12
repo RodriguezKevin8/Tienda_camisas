@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.val {
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 20px;
+  width: 400px;
+}
+
+.letter {
+  font-family: "Nunito", sans-serif;
+  font-size: 4rem;
+}
+.let-init {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
