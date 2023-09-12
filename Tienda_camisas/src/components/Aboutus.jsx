@@ -1,3 +1,7 @@
+import Navbar from "./Navbar";
+import './Dos.css';
+import imagen from "../../public/img/Zelda.jpeg";
+
 function Dos() {
   return (
     <div>
