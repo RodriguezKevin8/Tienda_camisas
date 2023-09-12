@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+}
+.contenedor__imagen{
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 800px) { 
+     .contenedor{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+     }
+}
