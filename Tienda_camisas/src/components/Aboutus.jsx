@@ -1,11 +1,9 @@
-import Navbar from "./Navbar";
 import './Dos.css';
 import imagen from "../../public/img/Zelda.jpeg";
 
 function Dos() {
   return (
     <div>
-      <Navbar/>
       <h1>About Us</h1>
       <div className="contenedor">
             <div className="contenedor__imagen">
