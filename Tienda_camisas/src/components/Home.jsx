@@ -95,7 +95,7 @@ function Home() {
 
   return (
     <div>
-      <div className=" text-center">
+      <div className="container text-center">
         <h2 className="letter">Encuentra tu estilo</h2>
         <br />
         <p className="text-center let-init">

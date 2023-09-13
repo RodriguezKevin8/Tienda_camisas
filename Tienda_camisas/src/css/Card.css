@@ -1,21 +1,44 @@
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.val {
-  margin: 2rem 2rem 2rem 2rem;
+.card-container {
+  margin: 0 auto;
+  max-width: 1200px;
   padding: 20px;
-  width: 400px;
 }
 
-.letter {
-  font-family: "Nunito", sans-serif;
-  font-size: 4rem;
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
+  gap: 40px;
 }
-.let-init {
-  font-family: "Noto Sans", sans-serif;
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.card-text {
   font-size: 1rem;
-  color: black;
+  color: #555;
+}
+
+.btn-primary {
+  width: 100%;
+}
+.tama {
+  width: "425px";
+  height: "350px";
 }
