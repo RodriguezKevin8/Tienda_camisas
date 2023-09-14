@@ -1,7 +1,7 @@
 function Tres() {
   return (
     <div>
-      <h1>Contact Us</h1>
+      <h1>Contact Us hola</h1>
     </div>
   );
 }
