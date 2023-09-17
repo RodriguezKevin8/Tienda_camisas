@@ -1,102 +1,102 @@
+import "../components/home.css";
 import Card from "./Card";
-
 function Home() {
   const datos = [
     {
-      valor: "Item 1",
+      valor: "Champion 1",
       imagen: "/img/cm1.jpg",
-      descripcion: "Descripción del Item 1",
+      descripcion: "Camiseta color negro",
       marca: "champion",
     },
     {
-      valor: "Item 2",
+      valor: "Champion 2",
       imagen: "/img/cm2.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color rojo",
       marca: "champion",
     },
     {
-      valor: "Item 3",
+      valor: "Champion 3",
       imagen: "/img/cm3.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color verde",
       marca: "champion",
     },
     {
-      valor: "Item 4",
+      valor: "Champion 4",
       imagen: "/img/cm4.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color ocre",
       marca: "champion",
     },
     {
-      valor: "Item 5",
+      valor: "Champion 5",
       imagen: "/img/cm5.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color naranja",
       marca: "champion",
     },
     {
-      valor: "Item 6",
+      valor: "Adidas 1",
       imagen: "/img/acm1.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color rojo",
     },
     {
-      valor: "Item 7",
+      valor: "Adidas 2",
       imagen: "/img/acm2.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color negro",
       marca: "adidas",
     },
     {
-      valor: "Item 8",
+      valor: "Adidas 3",
       imagen: "/img/acm3.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color gris",
       marca: "adidas",
     },
     {
-      valor: "Item 9",
+      valor: "Adidas 4",
       imagen: "/img/acm4.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color verde militar",
       marca: "adidas",
     },
     {
-      valor: "Item 10",
+      valor: "Adidas 5",
       imagen: "/img/acm5.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color blanca",
       marca: "adidas",
     },
     {
-      valor: "Item 11",
+      valor: "Nike 1",
       imagen: "/img/ncm1.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color negra",
       marca: "nike",
     },
     {
-      valor: "Item 12",
+      valor: "Niken2",
       imagen: "/img/ncm2.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color roja",
       marca: "nike",
     },
     {
-      valor: "Item 13",
+      valor: "Nike 3",
       imagen: "/img/ncm3.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color rosa",
       marca: "nike",
     },
     {
-      valor: "Item 14",
+      valor: "Nike 4",
       imagen: "/img/ncm4.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color salmon",
       marca: "nike",
     },
     {
-      valor: "Item 15",
+      valor: "Nike 5",
       imagen: "/img/ncm5.jpg",
-      descripcion: "Descripción del Item 2",
+      descripcion: "Camiseta color rosa fuerte",
       marca: "nike",
     },
   ];
 
   return (
-    <div>
+    <div className="home_font">
       <div className="container text-center">
-        <h2 className="letter">Encuentra tu estilo</h2>
+        <h2 className="letter pt-4">Encuentra tu estilo</h2>
         <br />
         <p className="text-center let-init">
           En ##, la moda encuentra su hogar. Nos enorgullecemos de ofrecerte una

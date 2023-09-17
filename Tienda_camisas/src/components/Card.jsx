@@ -31,8 +31,9 @@ const Card = ({ datos }) => {
           <div key={index} className="card">
             <img
               src={item.imagen}
-              className="card-img-top img-fluid tama"
+              className="card-img-top img-fluid"
               alt={item.descripcion}
+              style={{ width: "425px", height: "380px" }}
             />
             <div className="card-body">
               <h5 className="card-title">{item.valor}</h5>

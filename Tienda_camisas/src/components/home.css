@@ -1,0 +1,6 @@
+.home_font {
+  background-image: url("/public/img/fondo_home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
