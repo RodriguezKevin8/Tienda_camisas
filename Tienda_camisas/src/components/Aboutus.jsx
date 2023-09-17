@@ -3,7 +3,7 @@ import imagen from "../../public/img/cm1.jpg";
 
 function Dos() {
   return (
-    <div>
+    <div className="AboutUs">
       <h1>About Us</h1>
       <div className="contenedor">
         <div className="contenedor__imagen">
@@ -53,14 +53,12 @@ function Dos() {
       </div>
       <div className="contenido">
         <div className="section">
-          <div className="section">
             <h2 className="sectio__titulo">Ubicaciones Globales</h2>
             <p>
               Con tiendas en Milán, Nueva York y París, estamos orgullosos de
               atender a una clientela internacional apasionada por la moda de
               calidad...
             </p>
-          </div>
         </div>
 
         <div className="section">
@@ -86,8 +84,8 @@ function Dos() {
             de nuestra herencia italiana...
           </p>
         </div>
+        </div>
       </div>
-    </div>
   );
 }
 
