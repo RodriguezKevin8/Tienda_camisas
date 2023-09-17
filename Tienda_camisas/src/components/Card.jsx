@@ -19,7 +19,7 @@ const Card = ({ datos }) => {
         value={marcaSeleccionada}
         onChange={handleMarcaChange}
         className="form-select my-3 mx-3 ms-auto"
-        style={{ width: "150px" }}
+        style={{ width: "151px" }}
       >
         <option value="">Todas</option>
         <option value="champion">Champion</option>

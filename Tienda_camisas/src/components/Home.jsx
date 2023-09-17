@@ -99,9 +99,9 @@ function Home() {
         <h2 className="letter pt-4">Encuentra tu estilo</h2>
         <br />
         <p className="text-center let-init">
-          En ##, la moda encuentra su hogar. Nos enorgullecemos de ofrecerte una
-          experiencia de compra excepcional donde la elegancia y la comodidad se
-          fusionan en cada prenda que exhibimos.
+          En JVCamisas, la moda encuentra su hogar. Nos enorgullecemos de
+          ofrecerte una experiencia de compra excepcional donde la elegancia y
+          la comodidad se fusionan en cada prenda que exhibimos.
         </p>
         <p className="text-center let-init">
           Nuestra tienda es un paraíso para los amantes de las camisetas, donde
