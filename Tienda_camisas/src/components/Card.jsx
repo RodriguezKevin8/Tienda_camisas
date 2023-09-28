@@ -41,7 +41,9 @@ const Card = ({ datos }) => {
             </div>
             <div className="mt-auto mx-3 my-3">
               <Link
-                to={`/buy?valor=${item.valor}&imagen=${item.imagen}&descripcion=${item.descripcion}&marca=${item.marca}`}
+                to={`/buy/${item.valor}/${encodeURIComponent(
+                  item.imagen
+                )}/${encodeURIComponent(item.descripcion)}/${item.marca}`}
                 className="btn btn-primary text-center"
               >
                 Ver producto
