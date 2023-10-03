@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 
-function Navbar() {
+function Navbar({ carrito }) {
+  const cantidadEnCarrito = carrito.reduce((total, camisa) => total + camisa.cantidad, 0);
   return (
     <div>
       <nav
@@ -37,6 +38,11 @@ function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link" to={`/contact`}>
                   Contact Us
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to={`/carrito`}>
+                  Carrito ({cantidadEnCarrito})
                 </Link>
               </li>
             </ul>

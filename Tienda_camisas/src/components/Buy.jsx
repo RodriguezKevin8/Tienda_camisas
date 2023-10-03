@@ -1,8 +1,23 @@
 import { useParams } from "react-router-dom";
+import { useState } from "react";
 import "../css/Buy.css";
 
-const Buy = () => {
+const Buy = ({carrito, setCarrito}) => {
   const { valor, imagen, descripcion, marca } = useParams();
+  const [cantidadSeleccionada, setCantidadSeleccionada] = useState(1);
+  const [tallaSeleccionada, setTallaSeleccionada] = useState('S'); 
+  
+  const agregarAlCarrito = () => {
+    const nuevaCamiseta = {
+      valor,
+      imagen: decodeURIComponent(imagen),
+      descripcion: decodeURIComponent(descripcion),
+      marca,
+      cantidad: cantidadSeleccionada,
+      talla: tallaSeleccionada, // Agregar la talla al objeto
+    };
+    setCarrito([...carrito, nuevaCamiseta]);
+  };
 
   return (
     <div className="product-container">
@@ -20,7 +35,8 @@ const Buy = () => {
         <p className="product-brand">Marca: {marca}</p>
         <div className="product-options">
           <label htmlFor="size">Talla:</label>
-          <select id="size" className="product-select">
+          <select id="size" className="product-select" value={tallaSeleccionada}
+          onChange={(e) => setTallaSeleccionada(e.target.value)}>
             <option value="small">S</option>
             <option value="medium">M</option>
             <option value="large">L</option>
@@ -31,14 +47,15 @@ const Buy = () => {
             id="quantity"
             min="1"
             defaultValue="1"
+            value={cantidadSeleccionada}
+            onChange={(e) => setCantidadSeleccionada(parseInt(e.target.value))}
             className="product-quantity"
           />
-          <button className="product-button">Añadir al carrito</button>
-          <button className="product-button">Comprar</button>
+          <button className="product-button" onClick={agregarAlCarrito}>Añadir al carrito</button>
         </div>
       </div>
     </div>
   );
 };
 
-export default Buy;
+export default Buy

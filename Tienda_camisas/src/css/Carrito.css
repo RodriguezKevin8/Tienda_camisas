@@ -1,0 +1,42 @@
+.centrado{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.camisa{
+    border-bottom: 1px solid #ccc;
+    width: 70%;
+    padding: 0.5rem 5rem;
+    margin-bottom: 1rem;
+}
+.camisa:last-of-type{
+    border: none;
+}
+.camisa__titulo{
+    margin-top: 2rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+.camisa__contenido{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+.camisa__detalle{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.button {
+    width: 100px; /* Establece un ancho fijo */
+    height: 40px; /* Establece una altura fija */
+    max-width: 150px; /* Establece un ancho máximo */
+    max-height: 60px; /* Establece una altura máxima */
+    border: none;
+    background-color: #a232be;
+    color: white;
+  }
+  .button:hover{
+    background-color: #a276ad;
+  }

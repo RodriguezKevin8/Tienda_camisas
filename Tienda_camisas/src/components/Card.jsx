@@ -4,6 +4,7 @@ import "../css/Card.css";
 
 const Card = ({ datos }) => {
   const [marcaSeleccionada, setMarcaSeleccionada] = useState(null);
+  
 
   const handleMarcaChange = (event) => {
     setMarcaSeleccionada(event.target.value);

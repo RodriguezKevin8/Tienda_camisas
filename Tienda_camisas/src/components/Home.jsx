@@ -1,6 +1,8 @@
+
 import "../components/home.css";
 import Card from "./Card";
 function Home() {
+
   const datos = [
     {
       valor: "Champion 1",
