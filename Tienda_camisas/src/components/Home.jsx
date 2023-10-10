@@ -1,6 +1,8 @@
 
 import "../components/home.css";
 import Card from "./Card";
+import banner from "../multimedia/banner.png"
+
 function Home() {
 
   const datos = [
@@ -97,6 +99,7 @@ function Home() {
 
   return (
     <div className="home_font">
+      <img src={banner} alt="Banner" width={1920} height={1000} />
       <div className="container text-center">
         <h2 className="letter pt-4">Encuentra tu estilo</h2>
         <br />

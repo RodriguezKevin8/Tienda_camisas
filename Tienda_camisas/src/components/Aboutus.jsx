@@ -1,15 +1,16 @@
 import "./Dos.css";
-import imagen from "../../public/img/cm1.jpg";
+import imagen from "../multimedia/about.jpg";
+import { Padding } from "@mui/icons-material";
 
 function Dos() {
   return (
     <div className="AboutUs">
-      <h1>About Us</h1>
       <div className="contenedor">
         <div className="contenedor__imagen">
           <img src={imagen} alt="imagen" />
         </div>
         <div className="contenedor__texto">
+        <h1>About Us</h1>
           <p>
             Somos una tienda de camisas con una pasión por la moda y el estilo.
             Fundada en 1995, nuestra tienda se ha dedicado a proporcionar a
@@ -54,7 +55,7 @@ function Dos() {
       <div className="contenido">
         <div className="section">
             <h2 className="sectio__titulo">Ubicaciones Globales</h2>
-            <p>
+            <p className="sectio__titulo">
               Con tiendas en Milán, Nueva York y París, estamos orgullosos de
               atender a una clientela internacional apasionada por la moda de
               calidad...
@@ -63,7 +64,7 @@ function Dos() {
 
         <div className="section">
           <h2 className="sectio__titulo">Innovación en la Moda</h2>
-          <p>
+          <p className="sectio__titulo">
             Nos enorgullecemos de estar a la vanguardia de las tendencias de
             moda para hombres...
           </p>
@@ -71,7 +72,7 @@ function Dos() {
 
         <div className="section">
           <h2 className="sectio__titulo">Primera Calidad</h2>
-          <p>
+          <p className="sectio__titulo">
             Utilizamos solo los materiales más finos, seleccionados con
             meticulosidad para garantizar la comodidad y durabilidad...
           </p>
@@ -79,7 +80,7 @@ function Dos() {
 
         <div className="section">
           <h2 className="sectio__titulo">Preservando la Tradición</h2>
-          <p>
+          <p className="sectio__titulo">
             Aunque abrazamos la innovación, nunca perdemos de vista las raíces
             de nuestra herencia italiana...
           </p>

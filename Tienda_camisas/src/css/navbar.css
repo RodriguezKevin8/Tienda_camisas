@@ -1,0 +1,35 @@
+.navbar-nav li a {
+    color: white;
+}
+
+.navbar-nav li a:hover {
+    color: white;
+}
+
+.navbar-nav li a:active {
+    color: white;
+}
+
+.navbar-nav li a:focus {
+    color: rgba(202, 202, 202, 0.575);
+  }
+  
+
+
+.nav-item {
+    margin-left: 25px;
+  }
+ 
+  
+  .navbar-brand {
+    float: left;
+  }
+  
+  .navbar-nav {
+    float: right;
+  }
+  
+  .navbar-nav:first-child {
+    margin-left: 10px;
+  }
+  
